@@ -9,7 +9,7 @@ services:
 
   broker:
     image: confluentinc/cp-kafka:7.3.0
-    container_name: broker
+    container_name: kafka-broker
     ports:
       # To learn about configuring Kafka for access across networks see
       # https://www.confluent.io/blog/kafka-client-cannot-connect-to-broker-on-aws-on-docker-etc/
